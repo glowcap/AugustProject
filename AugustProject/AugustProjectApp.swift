@@ -11,7 +11,7 @@ import SwiftUI
 struct AugustProjectApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SearchView()
         }
     }
 }
