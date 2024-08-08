@@ -49,10 +49,12 @@ struct DetailView: View {
               .padding(DesignSystem.Token.Spacing.small)
             Text("x")
               .textSecondary()
+              .accessibilityElement(children: .ignore)
+              .accessibilityLabel("by")
             Text("Height: \(Int(item.height))")
               .textPrimary()
               .padding(DesignSystem.Token.Spacing.small)
-          }
+          }.accessibilityElement(children: .combine)
           Divider()
           Text(item.author)
             .textSecondary()
