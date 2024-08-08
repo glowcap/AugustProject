@@ -20,5 +20,10 @@ extension DesignSystem {
     struct CornerRadius {}
   }
   
+  struct Component {
+    struct Text {
+      struct Style {}
+    }
+  }
+  
 }
-

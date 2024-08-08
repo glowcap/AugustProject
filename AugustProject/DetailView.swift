@@ -39,15 +39,23 @@ struct DetailView: View {
             .shadow(color: .gray, radius: CornerRadius.medium, x: 2, y: 2)
           }
           Text(item.title)
-            .font(.system(.title, design: .rounded, weight: .medium))
-            .foregroundStyle(TextColor.primary)
+            .titlePrimaryLarge()
           Divider()
-          HStack() {
-            Spacer()
-            Text(item.author)
-              .font(.system(.footnote, design: .rounded, weight: .light))
-              .foregroundStyle(TextColor.secondary)
+          Text("More about this image:")
+            .titlePrimary()
+          HStack(alignment: .center) {
+            Text("Width: \(Int(item.width))")
+              .textPrimary()
+              .padding(DesignSystem.Token.Spacing.small)
+            Text("x")
+              .textSecondary()
+            Text("Height: \(Int(item.height))")
+              .textPrimary()
+              .padding(DesignSystem.Token.Spacing.small)
           }
+          Divider()
+          Text(item.author)
+            .textSecondary()
         }
         .padding()
       }

@@ -11,6 +11,8 @@
 		4A7AD2972C63A098001389B6 /* Thumbnail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7AD2962C63A098001389B6 /* Thumbnail.swift */; };
 		4A7AD29B2C63A21A001389B6 /* DesignSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7AD29A2C63A21A001389B6 /* DesignSystem.swift */; };
 		4A7AD29E2C63A556001389B6 /* DesignSystem+Tokens.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7AD29D2C63A556001389B6 /* DesignSystem+Tokens.swift */; };
+		4A7AD2A02C6449DB001389B6 /* DesignSystem+TextTitleStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7AD29F2C6449DB001389B6 /* DesignSystem+TextTitleStyle.swift */; };
+		4A7AD2A32C644BAD001389B6 /* DesignSystem+TextDefaultStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A7AD2A22C644BAD001389B6 /* DesignSystem+TextDefaultStyle.swift */; };
 		4AB5FEC12C62E715007E05EC /* AugustProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB5FEC02C62E715007E05EC /* AugustProjectApp.swift */; };
 		4AB5FEC32C62E715007E05EC /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB5FEC22C62E715007E05EC /* SearchView.swift */; };
 		4AB5FEC52C62E719007E05EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AB5FEC42C62E719007E05EC /* Assets.xcassets */; };
@@ -50,6 +52,8 @@
 		4A7AD2962C63A098001389B6 /* Thumbnail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thumbnail.swift; sourceTree = "<group>"; };
 		4A7AD29A2C63A21A001389B6 /* DesignSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignSystem.swift; sourceTree = "<group>"; };
 		4A7AD29D2C63A556001389B6 /* DesignSystem+Tokens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DesignSystem+Tokens.swift"; sourceTree = "<group>"; };
+		4A7AD29F2C6449DB001389B6 /* DesignSystem+TextTitleStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DesignSystem+TextTitleStyle.swift"; sourceTree = "<group>"; };
+		4A7AD2A22C644BAD001389B6 /* DesignSystem+TextDefaultStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DesignSystem+TextDefaultStyle.swift"; sourceTree = "<group>"; };
 		4AB5FEBD2C62E715007E05EC /* AugustProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AugustProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AB5FEC02C62E715007E05EC /* AugustProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AugustProjectApp.swift; sourceTree = "<group>"; };
 		4AB5FEC22C62E715007E05EC /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
@@ -121,9 +125,19 @@
 			isa = PBXGroup;
 			children = (
 				4A7AD29A2C63A21A001389B6 /* DesignSystem.swift */,
+				4A7AD2A12C644B5D001389B6 /* DesignSystem+Components */,
 				4A7AD29D2C63A556001389B6 /* DesignSystem+Tokens.swift */,
 			);
 			path = DesignSystem;
+			sourceTree = "<group>";
+		};
+		4A7AD2A12C644B5D001389B6 /* DesignSystem+Components */ = {
+			isa = PBXGroup;
+			children = (
+				4A7AD29F2C6449DB001389B6 /* DesignSystem+TextTitleStyle.swift */,
+				4A7AD2A22C644BAD001389B6 /* DesignSystem+TextDefaultStyle.swift */,
+			);
+			path = "DesignSystem+Components";
 			sourceTree = "<group>";
 		};
 		4AB5FEB42C62E715007E05EC = {
@@ -353,10 +367,12 @@
 				4AB5FEF82C631995007E05EC /* DetailView.swift in Sources */,
 				4AB5FEC32C62E715007E05EC /* SearchView.swift in Sources */,
 				4A7AD2972C63A098001389B6 /* Thumbnail.swift in Sources */,
+				4A7AD2A32C644BAD001389B6 /* DesignSystem+TextDefaultStyle.swift in Sources */,
 				4A7AD29B2C63A21A001389B6 /* DesignSystem.swift in Sources */,
 				4A7AD29E2C63A556001389B6 /* DesignSystem+Tokens.swift in Sources */,
 				4A7AD2922C6334D4001389B6 /* UINavigationController+.swift in Sources */,
 				4AB5FEF02C62F861007E05EC /* ImageFetchService.swift in Sources */,
+				4A7AD2A02C6449DB001389B6 /* DesignSystem+TextTitleStyle.swift in Sources */,
 				4AB5FEC12C62E715007E05EC /* AugustProjectApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
