@@ -118,7 +118,7 @@ extension View {
   func titlePrimaryLarge() -> some View {
     modifier(DesignSystem.Component.Text.Style.TitlePrimaryLarge())
   }
-  
+
 }
 
 #Preview {
